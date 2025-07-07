@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LD4430_HSZF_2024252.Model\LD4430_HSZF_2024252.Model.csproj" />
+    <ProjectReference Include="..\LD4430_HSZF_2024252.Persistence.MsSql\LD4430_HSZF_2024252.Persistence.MsSql.csproj" />
+  </ItemGroup>
+
+</Project>
